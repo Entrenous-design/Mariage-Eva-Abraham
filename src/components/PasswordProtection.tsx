@@ -84,13 +84,13 @@ export default function PasswordProtection() {
             💍 Mariage
           </CardTitle>
           <CardDescription
-            className="text-xl font-marcellus"
+            className="text-xl font-trajan"
             style={{ color: "#81579f" }}
           >
             Eva & Abraham
           </CardDescription>
           <p
-            className="text-sm mt-4"
+            className="text-sm mt-4 font-trajan"
             style={{ color: "#9B59B6" }}
           >
             Veuillez entrer le mot de passe pour accéder à l'invitation
