@@ -106,17 +106,14 @@ export default function NavigationBanner({ sections = [] }: NavigationBannerProp
             <div className="text-lg font-bold">{String(timeLeft.days).padStart(2, '0')}</div>
             <div className="text-xs">jours</div>
           </div>
-          <div className="text-lg">:</div>
           <div className="text-center">
             <div className="text-lg font-bold">{String(timeLeft.hours).padStart(2, '0')}</div>
             <div className="text-xs">h</div>
           </div>
-          <div className="text-lg">:</div>
           <div className="text-center">
             <div className="text-lg font-bold">{String(timeLeft.minutes).padStart(2, '0')}</div>
             <div className="text-xs">m</div>
           </div>
-          <div className="text-lg">:</div>
           <div className="text-center">
             <div className="text-lg font-bold">{String(timeLeft.seconds).padStart(2, '0')}</div>
             <div className="text-xs">s</div>
