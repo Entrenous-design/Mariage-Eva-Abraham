@@ -1,0 +1,26 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "weddingalexandraari.com"
+        }
+      ],
+      "destination": "https://www.weddingalexandraari.com/$1",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/preview.png",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}

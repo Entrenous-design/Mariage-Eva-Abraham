@@ -53,13 +53,13 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/preview.jpg" type="image/jpeg" />
         {/* Préchargement de toutes les images pour améliorer les performances */}
-        <link rel="preload" href="/1.svg" as="image" />
-        <link rel="preload" href="/2.svg" as="image" />
-        <link rel="preload" href="/3.svg" as="image" />
-        <link rel="preload" href="/4.svg" as="image" />
-        <link rel="preload" href="/5.svg" as="image" />
-        <link rel="preload" href="/6.svg" as="image" />
-        <link rel="preload" href="/rsvp.svg" as="image" />
+        <link rel="preload" href="/1.png" as="image" />
+        <link rel="preload" href="/2.png" as="image" />
+        <link rel="preload" href="/3.png" as="image" />
+        <link rel="preload" href="/4.png" as="image" />
+        <link rel="preload" href="/5.png" as="image" />
+        <link rel="preload" href="/6.png" as="image" />
+        <link rel="preload" href="/rsvp.png" as="image" />
         <link rel="preload" href="/logo-whatsapp.png" as="image" />
         <link rel="preload" href="/preview.jpg" as="image" />
       </head>

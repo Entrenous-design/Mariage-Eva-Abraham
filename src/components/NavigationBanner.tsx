@@ -86,12 +86,12 @@ export default function NavigationBanner({ sections = [] }: NavigationBannerProp
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm border-b border-purple-200/50 shadow-sm" style={{ backgroundColor: '#e8ceff' }}>
+    <div className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm border-b border-purple-200/50 shadow-sm" style={{ backgroundColor: '#F8F3FF' }}>
       <div className="flex items-center justify-between px-4 py-3 h-16">
         {/* Logo à gauche */}
         <div className="flex items-center">
           <Image
-            src="/logo.svg"
+            src="/logo.png"
             alt="Logo"
             width={48}
             height={48}
@@ -162,7 +162,7 @@ export default function NavigationBanner({ sections = [] }: NavigationBannerProp
                         <li key={section.id}>
                           <button
                             onClick={() => scrollToSection(section.id)}
-                            className="w-full text-left px-4 py-2 text-sm font-trajan transition-all duration-300 text-[#81579f] hover:text-[#78B64D] hover:bg-purple-100/50"
+                            className="w-full text-left px-4 py-2 text-sm font-trajan transition-all duration-300 text-[#81579f] hover:text-[#8E44AD] hover:bg-purple-100/50"
                           >
                             {section.label}
                           </button>

@@ -15,7 +15,7 @@ export default function LandingPage({ onEnter }: LandingPageProps) {
       transition={{ duration: 1.5 }}
       className="fixed inset-0 z-50 flex items-center justify-center"
       style={{
-        backgroundImage: "url('/1.svg')",
+        backgroundImage: "url('/1.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -32,7 +32,7 @@ export default function LandingPage({ onEnter }: LandingPageProps) {
           color: "#81579f",
         }}
         onMouseEnter={(e) => {
-          e.currentTarget.style.color = "#78B64D";
+          e.currentTarget.style.color = "#9B59B6";
         }}
         onMouseLeave={(e) => {
           e.currentTarget.style.color = "#81579f";

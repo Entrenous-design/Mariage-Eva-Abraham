@@ -178,7 +178,7 @@ export default function RSVPForm() {
   return (
     <div className="w-full max-w-md mx-auto px-2 sm:px-3">
       <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
-        <img src="/rsvp.svg" alt="Form Header"  style={{ backgroundColor: 'transparent' }} />
+        <img src="/rsvp.png" alt="Form Header"  style={{ backgroundColor: 'transparent' }} />
         <div>
           <label
             htmlFor="lastName"
@@ -206,7 +206,7 @@ export default function RSVPForm() {
               fontSize: "16px", // Empêche le zoom sur iOS
             }}
             onFocus={(e) => {
-              e.currentTarget.style.borderColor = "#78B64D";
+              e.currentTarget.style.borderColor = "#9B59B6";
             }}
             onBlur={(e) => {
               e.currentTarget.style.borderColor = "#81579f";
@@ -241,7 +241,7 @@ export default function RSVPForm() {
               fontSize: "16px", // Empêche le zoom sur iOS
             }}
             onFocus={(e) => {
-              e.currentTarget.style.borderColor = "#78B64D";
+              e.currentTarget.style.borderColor = "#9B59B6";
             }}
             onBlur={(e) => {
               e.currentTarget.style.borderColor = "#81579f";
@@ -253,7 +253,7 @@ export default function RSVPForm() {
 
         {/* Section Mairie */}
         <div>
-          <label className="block text-base sm:text-lg mb-3 font-trajan uppercase" style={{ color: "#672e2a" }}>
+          <label className="block text-base sm:text-lg mb-3 font-trajan uppercase" style={{ color: "#6A1B9A" }}>
             Mairie
           </label>
           <div className="flex gap-4 mb-4 justify-center">
@@ -298,7 +298,7 @@ export default function RSVPForm() {
           </div>
           {formData.mairie.attending === "Oui" && (
             <div>
-              <label htmlFor="mairieCount" className="block text-sm mb-2 font-trajan" style={{ color: "#672e2a" }}>
+              <label htmlFor="mairieCount" className="block text-sm mb-2 font-trajan" style={{ color: "#6A1B9A" }}>
                 Nombre de personnes à la mairie *
               </label>
               <input
@@ -321,7 +321,7 @@ export default function RSVPForm() {
                   fontSize: "16px",
                 }}
                 onFocus={(e) => {
-                  e.currentTarget.style.borderColor = "#78B64D";
+                  e.currentTarget.style.borderColor = "#9B59B6";
                 }}
                 onBlur={(e) => {
                   e.currentTarget.style.borderColor = "#81579f";
@@ -335,7 +335,7 @@ export default function RSVPForm() {
 
         {/* Section After-Mairie */}
         <div>
-          <label className="block text-base sm:text-lg mb-3 font-trajan uppercase" style={{ color: "#672e2a" }}>
+          <label className="block text-base sm:text-lg mb-3 font-trajan uppercase" style={{ color: "#6A1B9A" }}>
             After-Mairie
           </label>
           <div className="flex gap-4 mb-4 justify-center">
@@ -380,7 +380,7 @@ export default function RSVPForm() {
           </div>
           {formData.afterMairie.attending === "Oui" && (
             <div>
-              <label htmlFor="afterMairieCount" className="block text-sm mb-2 font-trajan" style={{ color: "#672e2a" }}>
+              <label htmlFor="afterMairieCount" className="block text-sm mb-2 font-trajan" style={{ color: "#6A1B9A" }}>
                 Nombre de personnes à l'after mairie *
               </label>
               <input
@@ -403,7 +403,7 @@ export default function RSVPForm() {
                   fontSize: "16px",
                 }}
                 onFocus={(e) => {
-                  e.currentTarget.style.borderColor = "#78B64D";
+                  e.currentTarget.style.borderColor = "#9B59B6";
                 }}
                 onBlur={(e) => {
                   e.currentTarget.style.borderColor = "#81579f";
@@ -417,7 +417,7 @@ export default function RSVPForm() {
 
         {/* Section Houppa */}
         <div>
-          <label className="block text-base sm:text-lg mb-3 font-trajan uppercase" style={{ color: "#672e2a" }}>
+          <label className="block text-base sm:text-lg mb-3 font-trajan uppercase" style={{ color: "#6A1B9A" }}>
             Houppa
           </label>
           <div className="flex gap-4 mb-4 justify-center">
@@ -462,7 +462,7 @@ export default function RSVPForm() {
           </div>
           {formData.synagogue.attending === "Oui" && (
             <div>
-              <label htmlFor="synagogueCount" className="block text-sm mb-2 font-trajan" style={{ color: "#672e2a" }}>
+              <label htmlFor="synagogueCount" className="block text-sm mb-2 font-trajan" style={{ color: "#6A1B9A" }}>
                 Nombre de personnes à la synagogue *
               </label>
               <input
@@ -485,7 +485,7 @@ export default function RSVPForm() {
                   fontSize: "16px",
                 }}
                 onFocus={(e) => {
-                  e.currentTarget.style.borderColor = "#78B64D";
+                  e.currentTarget.style.borderColor = "#9B59B6";
                 }}
                 onBlur={(e) => {
                   e.currentTarget.style.borderColor = "#81579f";
@@ -499,7 +499,7 @@ export default function RSVPForm() {
 
         {/* Section Beach Party */}
         <div>
-          <label className="block text-base sm:text-lg mb-3 font-trajan uppercase" style={{ color: "#672e2a" }}>
+          <label className="block text-base sm:text-lg mb-3 font-trajan uppercase" style={{ color: "#6A1B9A" }}>
             Beach Party
           </label>
           <div className="flex gap-4 mb-4 justify-center">
@@ -544,7 +544,7 @@ export default function RSVPForm() {
           </div>
           {formData.reception.attending === "Oui" && (
             <div>
-              <label htmlFor="receptionCount" className="block text-sm mb-2 font-trajan" style={{ color: "#672e2a" }}>
+              <label htmlFor="receptionCount" className="block text-sm mb-2 font-trajan" style={{ color: "#6A1B9A" }}>
                 Nombre de personnes à la réception *
               </label>
               <input
@@ -567,7 +567,7 @@ export default function RSVPForm() {
                   fontSize: "16px",
                 }}
                 onFocus={(e) => {
-                  e.currentTarget.style.borderColor = "#78B64D";
+                  e.currentTarget.style.borderColor = "#9B59B6";
                 }}
                 onBlur={(e) => {
                   e.currentTarget.style.borderColor = "#81579f";
@@ -598,7 +598,7 @@ export default function RSVPForm() {
           onMouseEnter={(e) => {
             if (!submitted || hasError) {
               e.currentTarget.style.backgroundColor = "#78B64D";
-              e.currentTarget.style.borderColor = "#78B64D";
+              e.currentTarget.style.borderColor = "#9B59B6";
             }
           }}
           onMouseLeave={(e) => {
@@ -610,7 +610,7 @@ export default function RSVPForm() {
               e.currentTarget.style.borderColor = "#e57373";
             } else {
               e.currentTarget.style.backgroundColor = "#78B64D";
-              e.currentTarget.style.borderColor = "#78B64D";
+              e.currentTarget.style.borderColor = "#9B59B6";
             }
           }}
           disabled={isLoading}

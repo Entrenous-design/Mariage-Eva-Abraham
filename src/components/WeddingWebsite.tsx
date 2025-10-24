@@ -12,7 +12,7 @@ const sections = [
   { id: "mairie", label: "Mairie" },
   { id: "after-mairie", label: "After Mairie" },
   { id: "synagogue", label: "Houppa" },
-  { id: "reception", label: "beach party" },
+  { id: "additional", label: "beach party" },
   { id: "rsvp", label: "RSVP" },
 ];
 
@@ -110,7 +110,7 @@ export default function WeddingWebsite() {
           <WeddingSection
             id="mairie"
             title=""
-            backgroundImage="/2.svg"
+            backgroundImage="/2.png"
             isActive={activeSection === "mairie"}
             isTransitioning={isTransitioning && activeSection === "mairie"}
             transitionDirection={transitionDirection}
@@ -121,7 +121,7 @@ export default function WeddingWebsite() {
           <WeddingSection
             id="after-mairie"
             title=""
-            backgroundImage="/3.svg"
+            backgroundImage="/3.png"
             isActive={activeSection === "after-mairie"}
             isTransitioning={isTransitioning && activeSection === "after-mairie"}
             transitionDirection={transitionDirection}
@@ -132,7 +132,7 @@ export default function WeddingWebsite() {
           <WeddingSection
             id="synagogue"
             title=""
-            backgroundImage="/4.svg"
+            backgroundImage="/4.png"
             isActive={activeSection === "synagogue"}
             isTransitioning={isTransitioning && activeSection === "synagogue"}
             transitionDirection={transitionDirection}
@@ -143,7 +143,7 @@ export default function WeddingWebsite() {
           <WeddingSection
             id="reception"
             title=""
-            backgroundImage="/6.svg"
+            backgroundImage="/5.png"
             isActive={activeSection === "reception"}
             isTransitioning={isTransitioning && activeSection === "reception"}
             transitionDirection={transitionDirection}
@@ -154,7 +154,7 @@ export default function WeddingWebsite() {
           <WeddingSection
             id="additional"
             title=""
-            backgroundImage="/6.svg"
+            backgroundImage="/6.png"
             isActive={activeSection === "additional"}
             isTransitioning={isTransitioning && activeSection === "additional"}
             transitionDirection={transitionDirection}

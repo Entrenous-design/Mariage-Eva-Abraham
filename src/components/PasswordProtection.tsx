@@ -65,7 +65,7 @@ export default function PasswordProtection() {
         ></div>
         <div
           className="absolute bottom-0 left-0 w-96 h-96 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse"
-          style={{ backgroundColor: "#78B64D", animationDelay: "2s" }}
+          style={{ backgroundColor: "#9B59B6", animationDelay: "2s" }}
         ></div>
       </div>
 
@@ -91,7 +91,7 @@ export default function PasswordProtection() {
           </CardDescription>
           <p
             className="text-sm mt-4"
-            style={{ color: "#78B64D" }}
+            style={{ color: "#9B59B6" }}
           >
             Veuillez entrer le mot de passe pour accéder à l'invitation
           </p>
@@ -116,7 +116,7 @@ export default function PasswordProtection() {
                 disabled={isLoading}
                 className="h-10 border-2 font-trajan"
                 style={{
-                  borderColor: "#78B64D",
+                  borderColor: "#9B59B6",
                   backgroundColor: "#FCFAFB",
                   color: "#81579f",
                   transform: "translateZ(0)",
@@ -149,18 +149,18 @@ export default function PasswordProtection() {
               disabled={isLoading || !password}
               className="w-full h-10 font-bold font-trajan transition-all duration-300"
               style={{
-                backgroundColor: isLoading ? "#5a6847" : "#78B64D",
+                backgroundColor: isLoading ? "#6A1B9A" : "#9B59B6",
                 color: "#FCFAFB",
                 border: "none",
               }}
               onMouseEnter={(e) => {
                 if (!isLoading) {
-                  e.currentTarget.style.backgroundColor = "#5a6847";
+                  e.currentTarget.style.backgroundColor = "#6A1B9A";
                 }
               }}
               onMouseLeave={(e) => {
                 if (!isLoading) {
-                  e.currentTarget.style.backgroundColor = "#78B64D";
+                  e.currentTarget.style.backgroundColor = "#9B59B6";
                 }
               }}
             >
