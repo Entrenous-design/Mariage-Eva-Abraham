@@ -101,7 +101,7 @@ export default function NavigationBanner({ sections = [] }: NavigationBannerProp
         </div>
 
         {/* Compte à rebours au centre */}
-        <div className="flex items-center space-x-1 text-sm font-trajan" style={{ color: '#81579f' }}>
+        <div className="flex items-center space-x-3 text-sm font-trajan" style={{ color: '#81579f' }}>
           <div className="text-center">
             <div className="text-lg font-bold">{String(timeLeft.days).padStart(2, '0')}</div>
             <div className="text-xs">jours</div>
